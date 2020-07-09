@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <article>
+
+        </article>
+        <input type="button" value="fetch" onclick="
+            fetch('05_text').then(function(response){
+                response.text().then(function(text){
+                    alert(text);
+                    document.querySelector('article').innerHTML = text;
+                })
+            })
+        ">
+    </body>
+</html>
+
+
+<!--
+    8-13: 다른 파일의 내용을 가져옴
+    10: alert로 다른 파일 내용을 알림
+    11: 다른 파일 내용을 웹페이지에 출력
+-->

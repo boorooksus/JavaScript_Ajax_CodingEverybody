@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <article>
+
+        </article>
+        <input type="button" value="fetch" onclick="
+            function callbackme(){
+                console.log('response end');
+            }
+            fetch('05_text').then(callbackme);
+            console.log(1);
+            console.log(2);
+        ">
+    </body>
+</html>
+
+
+<!--
+    11: fetch(): 괄호 안의 파일을 서버로 요청 
+    11: then(): fetch 작업이 끝나면 괄호 안의 함수 실행
+    11-13: fetch는 asynchronous함 -> fetch로 파일 서버에서 불러오는동안 그 아래에 있는 코드 진행됨 -> '05_text' 파일 불러오기 시작-> 1출력 -> 2출력 -> 파일 볼러오기 완료 -> callbackme 실행
+-->

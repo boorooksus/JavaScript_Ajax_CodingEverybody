@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <article>
+
+        </article>
+        <input type="button" value="fetch" onclick="
+            /*function callbackme(){
+                console.log('response end');
+            }
+            fetch('05_text').then(callbackme);
+            console.log(1);
+            console.log(2);*/
+            
+            fetch('05_te').then(function(response){
+                if(response.status == '404'){
+                    alert('Not found')
+                }
+                console.log(response);
+            });
+            console.log(1);
+            console.log(2);
+        ">
+    </body>
+</html>
+
+
+<!--
+    15-17: 11과 비슷한 내용. 이름 없는 함수로 만들어서 사용 가능
+    15: response: 함수를 호출할 때 입력값으로 주는 객체. 이름은 아무렇게나 설정 가능. 만약 파일을 잘 받았다면 response의 status는 200. 파일 못 찾았다면 404.
+-->
