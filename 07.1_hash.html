@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- == 2 ===============================-->
+        <a href="#three">three</a>
+        <p>
+            first, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni itaque tenetur cumque labore asperiores veritatis debitis iusto ratione eaque odit delectus quis laboriosam praesentium, optio repellendus recusandae quo accusamus sequi!
+        </p>
+        <p>
+            second, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, cumque accusantium! Facilis incidunt explicabo blanditiis quisquam dolores eaque enim, nihil nemo nisi consectetur animi, vero nulla ducimus laboriosam placeat illum.
+        </p>
+        <p id="three"> <!-- == 1 =====================================-->
+            third, Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis pariatur tempore vel aliquid omnis? Dolore dignissimos in dolor quos? Debitis doloremque odit minima, provident aut esse ea perspiciatis ipsam nam?
+        </p>
+        <script>
+            // == 3 ==============================
+            if(location.hash){
+                console.log(location.hash.substr(1));
+            }
+        </script>
+    </body>
+</html>
+
+
+<!--
+    1: 주소창에 "https://localhost/07.1_hash.html#three"라고치면 해당 부분 페이지에서 자동으로 스크롤됨. three: fragment identifier
+    2: a tag이용해서 해당 단락까지 스크롤하도록 할 수 있음
+    3: hash를 javaScript 통해서 가져오는 방법
+-->
