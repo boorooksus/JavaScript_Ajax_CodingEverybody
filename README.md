@@ -11,7 +11,7 @@
    
 ***
    
-#### 생활코딩(Opentutorials) JavaScript - Ajax 스터디
+#### 생활코딩(Opentutorials) JavaScript - Ajax 공부 자료입니다.
    
 #### 참고 자료
 >"Ajax," Opentutorials, last modified AUG 27, 2018, accessed JUL 09, 2020, <https://opentutorials.org/course/3281>
